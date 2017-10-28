@@ -3,8 +3,8 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(list)
-  list.collect {|index| "Hello, my name is #{index}."}
+def batch_badge_creator(attendees)
+  attendees.collect {|attendee| "Hello, my name is #{attendee}."}
 end
 
 def assign_rooms(list)
